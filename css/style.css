@@ -170,3 +170,7 @@ p{
           margin-top: 150px;
         }
         
+        img{
+          width: 250px;
+          height: auto;
+        }
