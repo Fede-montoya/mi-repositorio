@@ -9,9 +9,12 @@
 
 }
 
+@media (max-width: 767px) {
+}
+
 
 body{
-    background-image: url(../img/fondo\ background.png);
+    background-image: url(../img/background-2.jpg);
     background-repeat: repeat;
     background-attachment:fixed;
 }
@@ -22,9 +25,13 @@ p{
 }
  nav a img{
       width: 250px;
+      display: flex;
       justify-content: center;
+      align-items: center;
+      height: auto;
       margin-top: 10px;
       margin-left: 40%;
+            
 }
   
       nav ul li a{
@@ -41,7 +48,7 @@ p{
         width: 100%;
         height: auto;
         margin-top: auto;
-        opacity: .8;
+        opacity: .6;
 }
    
      footer img {
