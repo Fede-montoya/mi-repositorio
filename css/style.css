@@ -48,7 +48,7 @@ p{
         width: 100%;
         height: auto;
         margin-top: auto;
-        opacity: .6;
+        opacity: .4;
 }
    
      footer img {
@@ -165,7 +165,18 @@ p{
         .container{
           width: 60%;
           margin-top: 20px;
+          background-color:rgba(0, 0, 255, .4);
+          height: 100%;
           
+          
+        }
+        .formulario{
+          display: block;
+          width: 500px;
+          align-items: center;
+          
+          
+        
         }
         h1 a{
           color: yellow;
