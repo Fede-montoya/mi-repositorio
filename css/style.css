@@ -165,15 +165,17 @@ p{
         .container{
           width: 60%;
           margin-top: 20px;
-          background-color:rgba(0, 0, 255, .4);
+          background-color:rgb(10, 22, 75, .5);
           height: 100%;
+          margin-bottom: 30px;
           
           
         }
         .formulario{
-          display: block;
+          display:block;
           width: 500px;
           align-items: center;
+          margin-bottom: 20px;
           
           
         
@@ -202,5 +204,7 @@ p{
           margin-top: 10px;
           margin-bottom: 50px;
         }
+        
+        
        
       
