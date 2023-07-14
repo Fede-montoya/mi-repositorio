@@ -1,0 +1,135 @@
+// todo lo general 
+
+
+h1,
+h2,
+h3,
+form label{
+   display: block ;
+   font-size: $textMd; 
+   color: $secondaryColor;
+   display: block;
+   ;
+}
+div label{
+ font-size:$textLg;
+}
+p{
+    font-weight: 500;
+    font-size: $mainFont;
+    line-height: 40px;
+   
+   }
+
+   .bg-yellow {
+    background-color:$keyColor;
+    width: auto;
+    margin-top: 30px;
+
+         }
+         
+         .text-blue{
+            color: $blue;
+            text-align: center;
+            font-size: $textMd;
+            margin-top: 100px;
+            
+         }
+         
+         .text-left {
+            text-align: left;
+         }
+
+         .contenedor{
+            background-color: $secondaryColor;
+            width: 60%;
+            height: 90%;
+            margin: auto;
+            padding:auto;
+        }
+        section figure{
+            color: $mainColor;
+        }
+        .my-button {
+            
+            background-color: $mainColor;
+            color: $blue;
+            border: none;
+            padding: 4px 30px;
+            text-align: center;
+            text-decoration:none;
+            display: inline-block;
+            font-size: $textSm;
+            cursor:pointer;
+            margin-bottom: 24px;
+            
+          }
+        figure img {
+          width: 60%;
+          height: auto;
+          margin-top: 12px;
+          box-sizing: border-box;
+        }
+        .boton-m{
+          color:$mainColor;
+          font-size: $textLg;
+          font-style: oblique;
+          display:inline-block;
+          padding: auto;
+          margin-top: 30px;
+          margin-left: 20px;
+          align-items: center;
+          display: flex;
+          
+        }
+        .boton-a{
+          color: $mainColor;
+          font-size: $textLg;
+          font-style: oblique;
+          display:flex;
+          flex-direction: column;
+          padding: auto;
+          margin-top: 30px;
+          margin-left: 20px;
+          align-items: center;
+        }
+          figure p {
+            font-size:$textMd;
+          }
+        .container{
+          width: 60%;
+          margin-top: 20px;
+          background-color:$secondaryColor;
+          height: 100%;
+          margin-bottom: 30px;
+          
+          
+        }
+        .formulario{
+          display:block;
+          width: 500px;
+          align-items: center;
+          margin-bottom: 20px;
+          
+          
+        
+        }
+        h1 a{
+          color: $mainColor;
+        }
+        
+        .redes{
+          margin-top: 150px;
+        }
+        
+        img{  
+          width: 260px;
+          height: auto;
+          border: 10px $mainColor;
+          padding: auto ;
+          margin-top: 10px;
+          margin-bottom: 30px;
+          display:inline-flex;
+          margin-left: 20px;
+        
+        }

@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+p {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(10, 22, 75, 0.5);
+  font-size: 22px;
+}
+
+h1,
+h2,
+h3,
+form label {
+  display: block;
+  font-size: 22px;
+  color: rgba(10, 22, 75, 0.5);
+  display: block;
+}
+
+div label {
+  font-size: 30px;
+}
+
+p {
+  font-weight: 500;
+  font-size: "Montserrat", sans-serif;
+  line-height: 40px;
+}
+
+.bg-yellow {
+  background-color: rgb(252, 252, 81);
+  width: auto;
+  margin-top: 30px;
+}
+
+.text-blue {
+  color: blue;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 100px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.contenedor {
+  background-color: rgba(10, 22, 75, 0.5);
+  width: 60%;
+  height: 90%;
+  margin: auto;
+  padding: auto;
+}
+
+section figure {
+  color: rgba(255, 255, 0, 0.8);
+}
+
+.my-button {
+  background-color: rgba(255, 255, 0, 0.8);
+  color: blue;
+  border: none;
+  padding: 4px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+figure img {
+  width: 60%;
+  height: auto;
+  margin-top: 12px;
+  box-sizing: border-box;
+}
+
+.boton-m {
+  color: rgba(255, 255, 0, 0.8);
+  font-size: 30px;
+  font-style: oblique;
+  display: inline-block;
+  padding: auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.boton-a {
+  color: rgba(255, 255, 0, 0.8);
+  font-size: 30px;
+  font-style: oblique;
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+figure p {
+  font-size: 22px;
+}
+
+.container {
+  width: 60%;
+  margin-top: 20px;
+  background-color: rgba(10, 22, 75, 0.5);
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  display: block;
+  width: 500px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 a {
+  color: rgba(255, 255, 0, 0.8);
+}
+
+.redes {
+  margin-top: 150px;
+}
+
+img {
+  width: 260px;
+  height: auto;
+  border: 10px rgba(255, 255, 0, 0.8);
+  padding: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: inline-flex;
+  margin-left: 20px;
+}
+
+nav a img {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 40%;
+}
+
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: rgba(255, 255, 0, 0.8);
+}
+
+.boton-a {
+  color: rgba(255, 255, 0, 0.8);
+  font-size: 22px;
+  font-style: oblique;
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.boton-m {
+  color: rgba(255, 255, 0, 0.8);
+  font-size: 30px;
+  font-style: oblique;
+  display: inline-block;
+  padding: auto;
+  margin-top: 30px;
+  margin-left: 20px;
+  align-items: center;
+  display: flex;
+}
+.boton-m img {
+  width: 260px;
+  height: auto;
+  border: 10px rgba(255, 255, 0, 0.8);
+  padding: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: inline-flex;
+  margin-left: 20px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.formulario {
+  display: block;
+  width: 500px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

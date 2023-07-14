@@ -1,0 +1,18 @@
+nav a img {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+ul{
+    display: flex;
+    li{
+        list-style: none;
+        a{
+            color: $mainColor;
+        }
+    }
+}

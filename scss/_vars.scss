@@ -1,0 +1,23 @@
+// variables 
+
+// colores
+$mainColor:rgba(255, 255, 0, .8);
+$secondaryColor:rgba(10, 22, 75, .5);
+$keyColor:rgb(252, 252, 81);
+$blue: blue;
+//fonts
+$mainFont: 'Montserrat', sans-serif;
+$secondaryFont: verdana, sans-serif;
+
+// sizing
+$textSm:16px;
+$textMd:22px;
+$textLg:30px;
+$textXl:40px;
+
+p{
+    font-family: $mainFont;
+    color: $secondaryColor;
+    font-size: $textMd;
+    
+}
