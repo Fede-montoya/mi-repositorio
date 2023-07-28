@@ -23,16 +23,16 @@ p{
     color: rgb(255, 255, 0)
     
 }
- nav a img{
+ .logo img {
       width: 250px;
       display: flex;
       justify-content: center;
       align-items: center;
       height: auto;
-     
+      margin: 0;
       
-            
 }
+  
   
       nav ul li a{
            
@@ -51,11 +51,7 @@ p{
         opacity: .4;
 }
    
-     footer img {
-        width: 50px;
-        height: auto;
-     }
-       
+    
          h1,
          h2,
          h3,
@@ -100,6 +96,7 @@ p{
             font-size: 24px;
             margin-top: 100px;
             
+            
          }
          
          .text-left {
@@ -108,7 +105,7 @@ p{
 
          .contenedor{
             background-color: rgb(10, 22, 75, .5);
-            width: 60%;
+            width: auto;
             height: 90%;
             margin: auto;
             padding:auto;
@@ -149,29 +146,68 @@ p{
           display: flex;
           
         }
+        .boton-m img {
+          width: 50%;
+          @media screen and (max-width: 767px) {
+            .boton-m figcaption,
+            .boton-m p {
+              font-size: 10px;
+              padding: auto;
+              display: flex;
+             
+            }
+          }
+
+        }
         .boton-a{
           color: yellow;
           font-size: 26px;
           font-style: oblique;
           display:flex;
           flex-direction: column;
-          padding: auto;
-          margin-top: 30px;
-          margin-left: 20px;
+          padding: 50px;
+          margin:10px;
           align-items: center;
+        
+        }
+        .boton-a img{
+          width: 60%;
+          @media screen and (max-width: 767px) {
+            .boton-a figcaption,
+            .boton-a p {
+              font-size: 16px;
+             
+            }
+          }
+          
+          
+          
         }
           figure p {
             font-size: 18px;
           }
-        .container{
-          width: 60%;
-          margin-top: 20px;
-          background-color:rgb(10, 22, 75, .5);
-          height: 100%;
-          margin-bottom: 30px;
+          .container {
+            width: 100%;
+            margin-top: 20px;
+            background-color: rgb(10, 22, 75, .5);
+            padding: 20px; 
+            margin-bottom: 30px;
+          }
+
+          @media (min-width: 300px) {
+            .container {
+              width: 80%;
+            }
+          }
+          @media (max-width: 1200px) {
+            .my-button {
+              font-size: 14px;
+              padding: 8px 16px;
+            }
+          }
           
           
-        }
+        
         .formulario{
           display:block;
           width: 500px;
@@ -185,7 +221,7 @@ p{
           color: yellow;
         }
         
-        .redes{
+        .redes img{
           margin-top: 150px;
         }
         
@@ -206,6 +242,11 @@ p{
           margin-bottom: 50px;
         }
          
-        
+         footer img {
+        width: 40px;
+        height: auto;
+        padding: auto;
+     }
+       
        
       
